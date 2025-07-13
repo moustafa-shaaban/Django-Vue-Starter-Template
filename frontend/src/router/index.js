@@ -49,6 +49,16 @@ const router = createRouter({
           component: () => import('@/views/auth/ProfilePage.vue'),
         },
         {
+          path: '/profile',
+          name: 'profile',
+          component: () => import('@/views/user/ProfilePage.vue'),
+        },
+        {
+          path: '/settings',
+          name: 'settings',
+          component: () => import('@/views/user/SettingsPage.vue'),
+        },
+        {
           path: '/about',
           name: 'about',
           component: AboutView,

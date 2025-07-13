@@ -7,7 +7,7 @@
           <v-card-text>
             <p class="text-body-1 mb-4">Sorry, the page you're looking for doesn't exist.</p>
             <v-btn color="primary" to="/" class="ma-2">Go to Home</v-btn>
-            <v-btn variant="outlined" to="/login" class="ma-2">Login</v-btn>
+            <!-- <v-btn variant="outlined" to="/login" class="ma-2">Login</v-btn> -->
           </v-card-text>
         </v-card>
       </v-col>
